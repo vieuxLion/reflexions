@@ -1,0 +1,13 @@
+qu'arrive t-il quand on initialise un repository?
+un nouveau répertoire .git est créé pour héberger les fichiers techniques de suivi de modifications
+aucun commit n'est effectué
+on peut exécuter git status pour lister les fichiers non encore tracés
+
+avec la commande git add, on désigne les fichiers à surveiller par git, c'est à dire à placer dans la "staging area"
+
+
+
+en quoi la staging area est différente du working directory?
+elle permet de désigner les fichiers à tracer. Cela permet d'avoir d'autres fichiers libres dans le répertoire
+
+
