@@ -1,0 +1,48 @@
+ce que j'ai appris:
+utilisation de FC pour comparer deux fichiers et afficher les différences
+
+comment l'utilisation de l'historique permet d'améliorer mes compétences de programmeur:
+retourner rapidement à une version qui marche et comparer les différences
+sécuriser les changements par retour arrière facile
+
+quand sauvegarder les changements?
+lorsque l'on choisit de le faire
+
+commit size:
+a week - trop grand, commit chaque soir
+3 typos : pas un seul => les 3 ok
+tt changements logiques pendant une heure => OK
+deux petits bugs sur 2 fonctions différentes => plutot un par un
+
+les avantages de choisir manuellement les commits:
+- nous seuls avons la connaissance des changements effectués et de leur regroupement logique 
+- inconvénient, si l'on ne committe pas pendant longtemps et que l'on perd le travail
+
+
+pour cloner un repository
+git clone <url du repository>
+
+comment utiliser GIT pour suivre les évols du logiciel?
+avec GIT log, lister les evols
+avec git diff, comparer les IDs et voir les lignes insérées ou détruites
+
+
+pourquoi certains systèmes de gestion de version proposent des commits à plusieurs fichiers alors que d'autres proposent seulement des commit à un fichier ?
+selon les cas d'usage, les modifications portents sur plusieurs ou un fichier
+pour le code, généralement, plusieurs fichiers sont impactés par une modif
+
+
+recherche de bug et utilisation de git checkout
+le dernier id est 3884eab839af1e82c44267484cf2945a766081f3
+
+testé : 
+3e42136a76cf78c6c421cd720427bf6337c2d623
+4035769377cce96a88d5c1167079e12f30492391
+25ede836903881848fea811df5b687b59d962da3
+df035382c41b4d0cda86a1aa30b53f15bef05b53
+
+b0678b161fcf74467ed3a63110557e3d6229cfa6
+
+
+pourquoi utiliser GIT?
+pouvoir éditer le code sans peur de tout casser
