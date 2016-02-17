@@ -1,0 +1,4 @@
+avantages de créer un remote repository:
+- partager
+- sauvegarder
+
